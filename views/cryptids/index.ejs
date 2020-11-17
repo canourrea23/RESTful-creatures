@@ -1,5 +1,6 @@
 <ul>
-    <% crypts.forEach((crypt) => { %>
-      <li>Here is a <%= crypt.type %> named <%= crypt.name %>!</li>
+    <% cryptids.forEach((cryptid) => { %>
+        <li>Here is <%= cryptid.name %> <br>
+        <img src=<%= cryptid.img_url %> alt=""></li>
     <% }) %> 
-  </ul>
+</ul>
